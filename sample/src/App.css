@@ -1,0 +1,35 @@
+.mxt:hover{
+    background-color:rgb(236, 233, 233);
+  
+} 
+.cur{
+    cursor: pointer;
+}
+
+.lin{
+    display: -webkit-box;
+    -webkit-line-clamp:1;
+    -webkit-box-orient: vertical;
+    text-overflow: hidden;
+    height: 35px;
+    cursor: pointer;
+}
+.lin:hover{
+    box-shadow: inset 1px 0 0 #dadce0, inset -1px 0 0 #dadce0, 0 1px 2px 0 rgb(60 64 67 / 30%), 0 1px 3px 1px rgb(60 64 67 / 15%);
+}
+.tnt:hover+.str{
+   box-shadow: 0 0 5px 1px;
+}
+.tst{
+    height:660px;
+    overflow:auto;
+}
+.tst::-webkit-scrollbar-corner{
+    width: 0;
+}
+.inb:hover{
+    background: lightcoral;
+    color: rd !important;
+    
+}
+
